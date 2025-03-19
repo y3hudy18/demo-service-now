@@ -15,6 +15,7 @@
     "@storybook/test": "^8.6.7",
     "@storybook/web-components": "^8.6.7",
     "@storybook/web-components-vite": "^8.6.7",
+    "chromatic": "^11.27.0",
     "lit-html": "^3.2.1",
     "storybook": "^8.6.7",
     "typescript": "^5.8.2",

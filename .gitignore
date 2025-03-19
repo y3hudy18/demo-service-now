@@ -1,0 +1,28 @@
+# Node modules
+node_modules/
+
+# Vite cache
+.vite/
+
+# Yarn lock file
+yarn.lock
+
+# Dist folder (build output)
+dist/
+
+# Environment variables
+.env
+.env.*
+
+# IDE/Editor settings
+*.log
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
