@@ -9,22 +9,24 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      margin: 0;
+      margin: 0 auto;
       padding: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
       height: 100vh;
       background-color: #f4f4f4;
       width: 100vw;
-    }
-
-    #app {
       display: flex;
       flex-flow: row wrap;
-      justify-content: center;
       align-items: center;
+      justify-content: center;
       gap: 1rem;
+    }
+
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      body {
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: .5rem;
+      }
     }
   </style>
 </head>
