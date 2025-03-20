@@ -20,24 +20,24 @@ export class CardComponent extends LitElement {
       box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
       background: white;
       font-family: Arial, sans-serif;
+      min-width: 320px;
     }
     .card {
       display: flex;
       flex-direction: column;
       gap: 8px;
-      max-width: 100%;
     }
     .media {
       display: none;
     }
     @media (min-width: 321px) {
       .card {
-        max-width: 640px;
+        max-width: 240px;
       }
     }
     @media (min-width: 641px) {
       .card {
-        max-width: 1440px;
+        max-width: 340px;
       }
       .media {
         display: block;
@@ -49,6 +49,7 @@ export class CardComponent extends LitElement {
     .icon-container {
       display: flex;
       justify-content: flex-end;
+      align-items: center;
       gap: 8px;
       padding: 8px;
     }
@@ -57,6 +58,9 @@ export class CardComponent extends LitElement {
       border: none;
       cursor: pointer;
       font-size: 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
     .content {
       padding: 16px;
