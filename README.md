@@ -101,4 +101,4 @@ yarn dev
 
 ## 📬 Contact
 
-For questions or improvements, feel free to contact yehudy.f.barrantes@accenture.com! 🚀  
+For questions or improvements, feel free to contact me! 🚀  
