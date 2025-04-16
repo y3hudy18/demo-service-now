@@ -20,7 +20,7 @@ export class CardComponent extends LitElement {
       box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
       background: white;
       font-family: Arial, sans-serif;
-      min-width: 320px;
+      max-width: 320px;
     }
     .card {
       display: flex;
