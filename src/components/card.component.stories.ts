@@ -2,6 +2,16 @@ import { StoryFn, Meta } from '@storybook/web-components';
 import { html } from 'lit-html';
 import './card.component';
 
+interface CardProps {
+    heading: string;
+    description: string;
+    ctaText: string;
+    secondaryCtaText: string;
+    additionalInfo: string;
+    hasMedia: boolean;
+    isFavorite: boolean;
+}
+
 export default {
     title: 'Components/Card',
     component: 'app-card',
@@ -15,16 +25,6 @@ export default {
         isFavorite: { control: 'boolean' },
     },
 } as Meta;
-
-interface CardProps {
-    heading: string;
-    description: string;
-    ctaText: string;
-    secondaryCtaText: string;
-    additionalInfo: string;
-    hasMedia: boolean;
-    isFavorite: boolean;
-}
 
 const Template: StoryFn<CardProps> = ({ heading, description, ctaText, secondaryCtaText, additionalInfo, hasMedia, isFavorite }) => html`
   <app-card
